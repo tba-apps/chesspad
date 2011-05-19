@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <view
+		class="net.chesspad.ChessBoardView"
+	    android:id="@+id/chessboard"
+    	android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+	    
+	    
+	 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+      
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:baselineAligned="true" android:layout_marginTop="3px">
+        <ImageButton android:onClick="back" android:src="@drawable/goprevious" android:layout_height="64px" android:id="@+id/imageButton1" android:layout_width="64px"></ImageButton>
+        <ImageButton android:onClick="forward" android:src="@drawable/gonext" android:layout_width="64px" android:layout_height="64px" android:id="@+id/imageButton2"></ImageButton>
+        <!-- ImageButton android:src="@drawable/dialoginformation" android:layout_width="64px" android:layout_height="64px" android:id="@+id/imageButton3"></ImageButton-->
+        <ImageButton android:onClick="switchPlayers" android:src="@drawable/viewrefresh" android:layout_width="64px" android:layout_height="64px" android:id="@+id/imageButton5"></ImageButton>
+        <!-- ImageButton android:src="@drawable/flag" android:layout_width="64px" android:layout_height="64px" android:id="@+id/imageButton4"></ImageButton-->
+        <ImageButton android:onClick="analyse" android:id="@+id/analyseButton" android:layout_height="64px" android:layout_width="64px" android:src="@drawable/systemsearch"></ImageButton>
+   </LinearLayout>
+    
+    
+	
+	
+		<ScrollView
+		android:id="@+id/scrollView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<view
+		class="net.chesspad.GameTextView"
+	    android:id="@+id/gametextview"
+    	android:layout_width="fill_parent" android:layout_height="wrap_content"
+    	/>
+	</ScrollView>    
+	    
+    
+      
+     <!-- ViewStub android:id="@+id/viewStub1" android:layout="@layout/engineview" android:layout_width="fill_parent" android:layout_height="wrap_content"></ViewStub-->
+	 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:src="@android:drawable/divider_horizontal_bright"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:scaleType="fitXY" android:paddingLeft="5dp"
+		android:paddingRight="5dp" android:paddingBottom="2dp"
+		android:paddingTop="2dp" />
+	 
+	 <TextView android:id="@+id/engineOutputView" android:textSize="10dip" android:layout_width="wrap_content" android:text="[]" android:layout_height="wrap_content" android:layout_gravity="bottom"></TextView>
+ 
+ </LinearLayout>
+</LinearLayout>
