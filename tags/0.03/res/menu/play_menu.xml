@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="New Game" android:icon="@drawable/ic_menu_wizard" android:id="@+id/item_new_game"></item>
+    <item android:icon="@drawable/ic_menu_equalizer" android:title="Engine Parameters" android:id="@+id/item_engine_parameters"></item>
+    <!-- item android:title="File" android:icon="@drawable/ic_menu_save" android:id="@+id/item_file"></item-->
+    <item android:title="Settings" android:icon="@drawable/ic_menu_preferences" android:id="@+id/item_settings"></item>
+    <!-- item android:title="Opening Book" android:icon="@drawable/ic_menu_archive" android:id="@+id/item_opening_book"></item-->  
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChessPad</string>
+    <string name="nodes">Nodes</string>
+    <string name="nps">NPS</string>
+    <string name="depth">Depth</string>
+    <string name="empty">-</string>
+    <string name="separator">|</string>
+    <string name="manage_uci_engines">Manages UCI Engines</string>
+</resources>

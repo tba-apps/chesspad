@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <PreferenceCategory android:title="Display">
+		<!--CheckBoxPreference
+			android:key="boardFlipped"
+			android:title="Flip Playing Board"
+			android:summary="Show board from black's side"
+			android:defaultValue="false">
+		</CheckBoxPreference-->
+		<CheckBoxPreference
+			android:key="figurineNotation"
+			android:title="Figurine Algebraic Notation"
+			android:summary="Indicate pieces by graphical representations"
+			android:defaultValue="true">
+		</CheckBoxPreference>
+	</PreferenceCategory>
+</PreferenceScreen>
