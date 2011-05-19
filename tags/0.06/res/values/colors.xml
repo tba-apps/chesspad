@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_square_color">#CD6A33</color>
+    <color name="white_square_color">#FEE3B6</color>
+    <color name="dark_piece_color">#FF000000</color>
+    <color name="bright_piece_color">#FFFFFFFF</color>
+</resources>
